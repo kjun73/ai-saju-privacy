@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI_사주 — 개인정보 처리방침 및 계정 데이터 삭제 안내</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+            --text-main: #f0f6fc;
+            --text-sub: #8b949e;
+            --accent-blue: #58a6ff;
+            --accent-purple: #bc8cff;
+            --accent-red: #f85149;
+            --accent-green: #3fb950;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans KR", sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 840px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 32px 16px 24px;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 32px;
+        }
+        header h1 {
+            font-size: 26px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        header p {
+            color: var(--text-sub);
+            font-size: 14px;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .nav-btn {
+            padding: 8px 18px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            background: var(--card-bg);
+            transition: all 0.2s;
+        }
+        .nav-btn:hover {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 28px 24px;
+            margin-bottom: 28px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--accent-blue);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        h3 {
+            font-size: 16px;
+            margin: 20px 0 8px;
+            color: var(--text-main);
+        }
+        p, ul, ol {
+            color: #c9d1d9;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 13px;
+        }
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 10px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: var(--text-main);
+            font-weight: 600;
+        }
+        .highlight-box {
+            background-color: rgba(88, 166, 255, 0.08);
+            border-left: 4px solid var(--accent-blue);
+            padding: 14px 16px;
+            border-radius: 4px;
+            margin: 16px 0;
+            font-size: 13px;
+        }
+        .danger-box {
+            background-color: rgba(248, 81, 73, 0.08);
+            border-left: 4px solid var(--accent-red);
+            padding: 14px 16px;
+            border-radius: 4px;
+            margin: 16px 0;
+            font-size: 13px;
+        }
+        .btn-action {
+            display: inline-block;
+            background: linear-gradient(135deg, #7B2FBE, #4A00E0);
+            color: #ffffff;
+            font-weight: 700;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 12px;
+            font-size: 14px;
+            transition: opacity 0.2s;
+        }
+        .btn-action:hover {
+            opacity: 0.9;
+        }
+        footer {
+            text-align: center;
+            padding: 32px 0 16px;
+            color: var(--text-sub);
+            font-size: 12px;
+            border-top: 1px solid var(--border-color);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🔮 AI_사주</h1>
+        <p>공식 개인정보 처리방침 및 계정·데이터 삭제 안내 센터</p>
+        <div class="nav-buttons">
+            <a href="#privacy" class="nav-btn">📜 개인정보 처리방침</a>
+            <a href="#deletion" class="nav-btn">🗑️ 계정 및 데이터 삭제 요청</a>
+            <a href="#contact" class="nav-btn">📬 개발자 문의</a>
+        </div>
+    </header>
+
+    <!-- 1. 개인정보 처리방침 -->
+    <section id="privacy" class="card">
+        <h2>📜 개인정보 처리방침 (Privacy Policy)</h2>
+        <p><strong>시행일자: 2026년 9월 8일</strong></p>
+        <p><strong>AI_사주</strong>(이하 "서비스", 패키지명: <code>com.jun.aisaju</code>)는 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보보호법(PIPA), 그리고 Google Play 개발자 정책을 철저히 준수하며 사용자의 소중한 개인정보를 안전하게 보호합니다.</p>
+
+        <h3>1. 수집하는 개인정보 항목 및 수집 방법</h3>
+        <p>본 서비스는 정통 사주 명식 계산 및 맞춤형 AI 운세 분석을 위해 최소한의 정보를 수집합니다:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>수집 영역</th>
+                    <th>항목</th>
+                    <th>수집 목적</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>필수 계정 정보</strong></td>
+                    <td>구글 계정 이메일, 고유 사용자 식별자(Google Auth UID)</td>
+                    <td>회원 식별, 로그인 인증, 기기 변경 시 백업 복원, 복채(토큰) 잔액 관리</td>
+                </tr>
+                <tr>
+                    <td><strong>사주 분석 정보</strong></td>
+                    <td>이름(또는 별칭), 성별, 생년월일, 출생시각(또는 "시간 모름"), 출생지역</td>
+                    <td>오프라인 정통 만세력 계산(천간/지지/오행/대운·세운 산출), Gemini AI 맞춤형 운세 풀이</td>
+                </tr>
+                <tr>
+                    <td><strong>궁합 상대 정보</strong></td>
+                    <td>상대방 이름, 성별, 생년월일, 출생시각, 출생지역</td>
+                    <td>궁합 분석 결과 도출 및 캐싱 (※ 상대방의 사전 동의 하에 직접 입력)</td>
+                </tr>
+                <tr>
+                    <td><strong>관상/손금 이미지</strong></td>
+                    <td>촬영 또는 업로드한 얼굴/손금 사진</td>
+                    <td>Gemini Vision AI 분석 즉시 처리 (※ 서버 영구 미저장, 분석 직후 메모리 파기)</td>
+                </tr>
+                <tr>
+                    <td><strong>앱 서비스 로그</strong></td>
+                    <td>비정상 종료(Crash) 로그, 인앱 결제 거래 영수증 식별값</td>
+                    <td>앱 안정성 개선(Crashlytics), 토큰 충전 무결성 검증</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>2. 개인정보의 보유 및 이용 기간</h3>
+        <ul>
+            <li>원칙적으로 사용자가 <strong>회원 탈퇴(계정 삭제)를 요청하거나 앱 내에서 탈퇴하는 즉시</strong>, 클라우드(Firestore/Firebase Storage) 및 기기 로컬 데이터베이스에 저장된 모든 개인정보 및 사주 분석 기록은 <strong>지체 없이 완전 파기</strong>됩니다.</li>
+            <li><strong>부정 이용 및 어뷰징 방지</strong>: 신규 가입 웰컴 토큰의 무한 반복 수령 등 서비스 악용을 차단하기 위해, 탈퇴 시 이메일 원문 대신 <strong>단방향 암호화 해시값(SHA-256)</strong>만을 별도 보존합니다. 해당 해시값은 어떠한 개인정보도 포함하지 않으며 역추적이 불가능합니다.</li>
+        </ul>
+
+        <h3>3. 개인정보의 제3자 제공 및 처리 위탁</h3>
+        <p>서비스는 사용자의 사전 동의 없이 개인정보를 외부에 제공하지 않습니다. 단, 서비스 인프라 구동을 위해 글로벌 클라우드 사업자에게 안전하게 위탁 처리됩니다:</p>
+        <ul>
+            <li><strong>수탁자</strong>: Google LLC / Alphabet Inc.</li>
+            <li><strong>위탁 목적</strong>: 구글 계정 로그인(Firebase Auth), 데이터 백업(Firestore/Storage), AI 추론 프록시(Cloud Functions), 오류 분석(Crashlytics), 리워드 광고(Google AdMob)</li>
+        </ul>
+
+        <h3>4. 만 14세 미만 아동의 개인정보 보호</h3>
+        <p>본 서비스는 만 14세 미만 아동의 가입을 의도하지 않으며, 법정대리인의 동의 없는 아동의 개인정보를 수집하지 않습니다.</p>
+
+        <h3>5. 이용자의 권리와 행사 방법</h3>
+        <p>사용자는 언제든지 앱 내 <code>[⚙️ 설정 > 회원 탈퇴]</code> 메뉴를 통해 본인의 모든 개인정보 및 계정 데이터를 즉시 영구 삭제할 수 있습니다. 앱이 삭제된 상태에서도 아래의 <strong>웹 삭제 요청 절차</strong>를 통해 동일하게 즉시 삭제를 요청하실 수 있습니다.</p>
+
+        <div class="highlight-box">
+            <strong>⚠️ [엔터테인먼트 면책 고지]</strong><br>
+            AI_사주에서 제공하는 모든 사주, 운세, 타로, 점성술 및 복권 추천 결과는 역학 및 통계 알고리즘에 기반한 엔터테인먼트(오락·참고) 목적이며, 전문적인 법적·의학적·재정적 판단을 대신할 수 없습니다.
+        </div>
+    </section>
+
+    <!-- 2. 계정 및 데이터 삭제 요청 -->
+    <section id="deletion" class="card">
+        <h2>🗑️ 계정 및 데이터 삭제 요청 (Data Deletion Request)</h2>
+        <p>Google Play의 사용자 데이터 보호 정책에 따라, 앱을 이미 스마트폰에서 삭제하였더라도 아래 안내를 통해 <strong>계정 및 모든 관련 데이터의 완전 영구 삭제</strong>를 요청하실 수 있습니다.</p>
+
+        <div class="danger-box">
+            <strong>⚠️ 삭제 시 영구 파기되는 데이터 범위:</strong>
+            <ul>
+                <li>Google Firebase Auth 인증 계정 정보</li>
+                <li>저장된 사주 명식(이름, 생년월일시, 성별) 및 10대 운세 풀이 기록</li>
+                <li>궁합 분석 상대방 기록, 꿈해몽, 타로, 관상 분석 히스토리</li>
+                <li>Firebase Cloud Storage에 보관된 클라우드 백업 SQLite DB 파일</li>
+                <li>보유 복채(토큰) 잔액 및 거래 내역 (※ 유료 구매 잔여 토큰 포함 복구 불가)</li>
+            </ul>
+        </div>
+
+        <h3>웹상에서 삭제를 요청하는 방법</h3>
+        <p>아래 버튼을 클릭하여 등록된 이메일 계정으로 삭제 요청 메일을 발송해 주시면, 확인 즉시 <strong>24시간 이내에 모든 데이터가 영구 파기</strong>되며 완료 회신을 드립니다.</p>
+
+        <ol>
+            <li>가입 시 사용하신 <strong>구글 계정 이메일 주소</strong>를 확인해 주세요.</li>
+            <li>아래 <strong>"데이터 삭제 요청 메일 보내기"</strong> 버튼을 클릭합니다.</li>
+            <li>이메일 본문에 가입 구글 계정을 기재하여 전송하시면 삭제 처리가 진행됩니다.</li>
+        </ol>
+
+        <a href="mailto:kjun73@kakao.com?subject=[AI_사주]%20계정%20및%20데이터%20삭제%20요청&body=안녕하세요,%20AI_사주%20계정%20및%20데이터%20영구%20삭제를%20요청합니다.%0A%0A- 가입 구글 이메일:%20%0A- 요청 일시:%20%0A%0A위 계정에 연결된 모든 클라우드 백업 데이터 및 계정 정보의 영구 파기를 확인합니다." class="btn-action">
+            📬 데이터 삭제 요청 메일 보내기 (kjun73@kakao.com)
+        </a>
+    </section>
+
+    <!-- 3. 개발자 문의 -->
+    <section id="contact" class="card">
+        <h2>📬 개발자 정보 및 문의처</h2>
+        <p>서비스 이용, 개인정보 보호 및 데이터 처리에 관한 문의 사항은 아래로 연락해 주시면 신속히 답변해 드리겠습니다.</p>
+        <ul>
+            <li><strong>앱 이름</strong>: AI_사주 (The_AI_SAJU)</li>
+            <li><strong>개발자</strong>: 김준 (Jun)</li>
+            <li><strong>공식 이메일</strong>: <a href="mailto:kjun73@kakao.com" style="color: var(--accent-blue);">kjun73@kakao.com</a></li>
+            <li><strong>지원 언어</strong>: 한국어 (Korean)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AI_사주 (com.jun.aisaju). All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
